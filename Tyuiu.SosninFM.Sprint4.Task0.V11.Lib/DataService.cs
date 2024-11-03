@@ -8,16 +8,15 @@ namespace Tyuiu.SosninFM.Sprint4.Task0.V11.Lib
         public int GetMultOddArrEl(int[] array)
         {
 
-            int sum = 0;
-            foreach (int i in array)
+            int res = 1;
+            for (int i = 0; i < array.Length; i++)
             {
-                if (i % 2 != 0)
+                if (array[i] % 2 != 0)
                 {
-                    sum += i;
+                    res *= array[i];
                 }
             }
-            return sum;
-
+            return res;
 
 
         }
