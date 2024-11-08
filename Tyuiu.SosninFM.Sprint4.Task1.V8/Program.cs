@@ -55,8 +55,6 @@ namespace Tyuiu.SosninFM.Sprint4.Task1.V8
 
             Console.WriteLine(res);
             Console.ReadKey();
-
-
         }
     }
 }
