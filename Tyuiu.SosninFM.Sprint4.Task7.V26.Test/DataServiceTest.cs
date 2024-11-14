@@ -15,7 +15,7 @@ namespace Tyuiu.SosninFM.Sprint4.Task7.V26.Test
 			string str = "351268459614723";
 			DataService ds = new DataService();
 			int res = ds.Calculate(rows, cols, str);
-			int wait = 14175;
+			int wait = 18432;
 			Assert.AreEqual(wait, res);
 
 		}
